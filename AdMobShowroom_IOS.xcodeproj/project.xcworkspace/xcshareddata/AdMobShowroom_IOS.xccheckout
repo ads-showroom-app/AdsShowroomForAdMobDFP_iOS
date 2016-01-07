@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A3A6BDE3-C446-4C16-A62D-AA2B73401202</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AdMobShowroom_IOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3134DA363995CA62340392867A0A051A833552A1</key>
+		<string>https://github.com/ads-showroom-app/AdsShowroomForAdMobDFP_iOS.git</string>
+		<key>7E1851BBAB559D659658FEBA77BBADDB515F24A5</key>
+		<string>https://github.com/danielctull-forks/GoogleAnalytics-SDK-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AdMobShowroom_IOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3134DA363995CA62340392867A0A051A833552A1</key>
+		<string>../..</string>
+		<key>7E1851BBAB559D659658FEBA77BBADDB515F24A5</key>
+		<string>../../../../Desktop/GoogleAnalytics-SDK-iOS</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ads-showroom-app/AdsShowroomForAdMobDFP_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3134DA363995CA62340392867A0A051A833552A1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3134DA363995CA62340392867A0A051A833552A1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AdsShowroom_IOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7E1851BBAB559D659658FEBA77BBADDB515F24A5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GoogleAnalytics-SDK-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
