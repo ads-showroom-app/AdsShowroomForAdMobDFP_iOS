@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>header</key>
+	<array>
+		<string>DFP SETTINGS</string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>title</key>
+	<array>
+		<string>DFP Inventory</string>
+		<string>Custom Targeting</string>
+		<string>Custom Ad Size</string>
+	</array>
+	<key>footer</key>
+	<array>
+		<string>* Check when using DFP Ad Unit ID.</string>
+		<string>* Put your key-value pairs. (e.g. k1=v1, k2=v2)</string>
+		<string>* Put the ad size. (e.g 300x300)</string>
+	</array>
+	<key>value</key>
+	<array>
+		<string>NO</string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>cellStyle</key>
+	<array>
+		<string>setting</string>
+		<string>value</string>
+		<string>value</string>
+	</array>
+</dict>
+</plist>

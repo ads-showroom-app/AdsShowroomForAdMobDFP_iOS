@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19707B8F1BF18DA20006F644 /* CellWithTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 19707B8E1BF18DA20006F644 /* CellWithTextField.m */; };
+		198243451BFD94C40085481A /* section2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 198243441BFD94C40085481A /* section2.plist */; };
+		198243471BFD95070085481A /* section1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 198243461BFD95070085481A /* section1.plist */; };
+		1982434A1BFD96B70085481A /* CellWithSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 198243491BFD96B70085481A /* CellWithSwitch.m */; };
+		199CCAD51BEC70FE003F0F8B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199CCAD41BEC70FE003F0F8B /* SettingViewController.m */; };
+		19E2577C1BA932B000DDB20C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E2577B1BA932B000DDB20C /* main.m */; };
+		19E2577F1BA932B000DDB20C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E2577E1BA932B000DDB20C /* AppDelegate.m */; };
+		19E257821BA932B000DDB20C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E257811BA932B000DDB20C /* MasterViewController.m */; };
+		19E257851BA932B000DDB20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E257831BA932B000DDB20C /* Main.storyboard */; };
+		19E257871BA932B000DDB20C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E257861BA932B000DDB20C /* Images.xcassets */; };
+		19E2578A1BA932B000DDB20C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19E257881BA932B000DDB20C /* LaunchScreen.xib */; };
+		19E257961BA932B000DDB20C /* AdMobShowroom_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E257951BA932B000DDB20C /* AdMobShowroom_IOSTests.m */; };
+		19EB88FA1C3E286300267F11 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EB88F91C3E286300267F11 /* GoogleMobileAds.framework */; };
+		19EFCC481BA96B6B009CA9D2 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EFCC471BA96B6B009CA9D2 /* AdViewController.m */; };
+		19FE95AA1C2257BB00153C9A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE95A91C2257BB00153C9A /* SystemConfiguration.framework */; };
+		19FE95AC1C2257C300153C9A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE95AB1C2257C300153C9A /* CoreData.framework */; };
+		19FE95AE1C2257CB00153C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE95AD1C2257CB00153C9A /* Foundation.framework */; };
+		19FE95B01C2257E300153C9A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE95AF1C2257E300153C9A /* libsqlite3.dylib */; };
+		19FE95B21C2257ED00153C9A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE95B11C2257ED00153C9A /* libz.dylib */; };
+		19FE95CA1C22864800153C9A /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE95C91C22864800153C9A /* libGoogleAnalyticsServices.a */; };
+		19FE95CC1C22871A00153C9A /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE95CB1C22871A00153C9A /* libAdIdAccess.a */; };
+		19FE95CE1C22890800153C9A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FE95CD1C22890800153C9A /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19E257901BA932B000DDB20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19E2576E1BA932B000DDB20C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E257751BA932B000DDB20C;
+			remoteInfo = AdMobShowroom_IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19707B8D1BF18DA20006F644 /* CellWithTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellWithTextField.h; sourceTree = "<group>"; };
+		19707B8E1BF18DA20006F644 /* CellWithTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellWithTextField.m; sourceTree = "<group>"; };
+		198243441BFD94C40085481A /* section2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = section2.plist; sourceTree = "<group>"; };
+		198243461BFD95070085481A /* section1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = section1.plist; sourceTree = "<group>"; };
+		198243481BFD96B70085481A /* CellWithSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellWithSwitch.h; path = ../CellWithSwitch.h; sourceTree = "<group>"; };
+		198243491BFD96B70085481A /* CellWithSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellWithSwitch.m; path = ../CellWithSwitch.m; sourceTree = "<group>"; };
+		199CCAD31BEC70FE003F0F8B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		199CCAD41BEC70FE003F0F8B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		19D3FC101C02E6940041A99E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		19E257761BA932B000DDB20C /* AdMobShowroom_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMobShowroom_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E2577A1BA932B000DDB20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E2577B1BA932B000DDB20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19E2577D1BA932B000DDB20C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19E2577E1BA932B000DDB20C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19E257801BA932B000DDB20C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		19E257811BA932B000DDB20C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		19E257841BA932B000DDB20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19E257861BA932B000DDB20C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19E257891BA932B000DDB20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19E2578F1BA932B000DDB20C /* AdMobShowroom_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdMobShowroom_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E257941BA932B000DDB20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E257951BA932B000DDB20C /* AdMobShowroom_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdMobShowroom_IOSTests.m; sourceTree = "<group>"; };
+		19EB88F91C3E286300267F11 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../GoogleMobileAdsSdkiOS-7.6.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		19EFCC461BA96B6B009CA9D2 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		19EFCC471BA96B6B009CA9D2 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
+		19FE95A91C2257BB00153C9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		19FE95AB1C2257C300153C9A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		19FE95AD1C2257CB00153C9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19FE95AF1C2257E300153C9A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		19FE95B11C2257ED00153C9A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		19FE95B51C2258F600153C9A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../GoogleMobileAdsSdkiOS-7.5.2 4/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		19FE95B81C22598B00153C9A /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		19FE95B91C22598B00153C9A /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		19FE95BA1C22598B00153C9A /* GAIEcommerceFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		19FE95BB1C22598B00153C9A /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		19FE95BC1C22598B00153C9A /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		19FE95BD1C22598B00153C9A /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		19FE95BE1C22598B00153C9A /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		19FE95BF1C22598B00153C9A /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		19FE95C01C22598B00153C9A /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		19FE95C11C22598B00153C9A /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		19FE95C91C22864800153C9A /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = "../../../Desktop/GoogleAnalytics-SDK-iOS/libGoogleAnalyticsServices.a"; sourceTree = "<group>"; };
+		19FE95CB1C22871A00153C9A /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		19FE95CD1C22890800153C9A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E257731BA932B000DDB20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FE95CC1C22871A00153C9A /* libAdIdAccess.a in Frameworks */,
+				19FE95CA1C22864800153C9A /* libGoogleAnalyticsServices.a in Frameworks */,
+				19FE95B21C2257ED00153C9A /* libz.dylib in Frameworks */,
+				19FE95B01C2257E300153C9A /* libsqlite3.dylib in Frameworks */,
+				19FE95CE1C22890800153C9A /* iAd.framework in Frameworks */,
+				19FE95AE1C2257CB00153C9A /* Foundation.framework in Frameworks */,
+				19EB88FA1C3E286300267F11 /* GoogleMobileAds.framework in Frameworks */,
+				19FE95AC1C2257C300153C9A /* CoreData.framework in Frameworks */,
+				19FE95AA1C2257BB00153C9A /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E2578C1BA932B000DDB20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D3FC121C040C4A0041A99E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19E257801BA932B000DDB20C /* MasterViewController.h */,
+				19E257811BA932B000DDB20C /* MasterViewController.m */,
+				19EFCC461BA96B6B009CA9D2 /* AdViewController.h */,
+				19EFCC471BA96B6B009CA9D2 /* AdViewController.m */,
+				199CCAD31BEC70FE003F0F8B /* SettingViewController.h */,
+				199CCAD41BEC70FE003F0F8B /* SettingViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		19D3FC131C040CBB0041A99E /* UITableCells */ = {
+			isa = PBXGroup;
+			children = (
+				19707B8D1BF18DA20006F644 /* CellWithTextField.h */,
+				19707B8E1BF18DA20006F644 /* CellWithTextField.m */,
+				198243481BFD96B70085481A /* CellWithSwitch.h */,
+				198243491BFD96B70085481A /* CellWithSwitch.m */,
+			);
+			name = UITableCells;
+			sourceTree = "<group>";
+		};
+		19E2576D1BA932B000DDB20C = {
+			isa = PBXGroup;
+			children = (
+				19EB88F91C3E286300267F11 /* GoogleMobileAds.framework */,
+				19FE95CD1C22890800153C9A /* iAd.framework */,
+				19FE95CB1C22871A00153C9A /* libAdIdAccess.a */,
+				19FE95B11C2257ED00153C9A /* libz.dylib */,
+				19FE95AF1C2257E300153C9A /* libsqlite3.dylib */,
+				19FE95B51C2258F600153C9A /* GoogleMobileAds.framework */,
+				19FE95AD1C2257CB00153C9A /* Foundation.framework */,
+				19FE95AB1C2257C300153C9A /* CoreData.framework */,
+				19FE95A91C2257BB00153C9A /* SystemConfiguration.framework */,
+				19E257781BA932B000DDB20C /* AdMobShowroom_IOS */,
+				19E257921BA932B000DDB20C /* AdMobShowroom_IOSTests */,
+				19E257771BA932B000DDB20C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19E257771BA932B000DDB20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19E257761BA932B000DDB20C /* AdMobShowroom_IOS.app */,
+				19E2578F1BA932B000DDB20C /* AdMobShowroom_IOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19E257781BA932B000DDB20C /* AdMobShowroom_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				19FE95B71C22594000153C9A /* Google Analytics Library */,
+				19D3FC101C02E6940041A99E /* Constants.h */,
+				19E2577D1BA932B000DDB20C /* AppDelegate.h */,
+				19E2577E1BA932B000DDB20C /* AppDelegate.m */,
+				19E257831BA932B000DDB20C /* Main.storyboard */,
+				19D3FC121C040C4A0041A99E /* Controllers */,
+				19D3FC131C040CBB0041A99E /* UITableCells */,
+				198243461BFD95070085481A /* section1.plist */,
+				198243441BFD94C40085481A /* section2.plist */,
+				19E257861BA932B000DDB20C /* Images.xcassets */,
+				19E257881BA932B000DDB20C /* LaunchScreen.xib */,
+				19E257791BA932B000DDB20C /* Supporting Files */,
+			);
+			path = AdMobShowroom_IOS;
+			sourceTree = "<group>";
+		};
+		19E257791BA932B000DDB20C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19E2577A1BA932B000DDB20C /* Info.plist */,
+				19E2577B1BA932B000DDB20C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19E257921BA932B000DDB20C /* AdMobShowroom_IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				19E257951BA932B000DDB20C /* AdMobShowroom_IOSTests.m */,
+				19E257931BA932B000DDB20C /* Supporting Files */,
+			);
+			path = AdMobShowroom_IOSTests;
+			sourceTree = "<group>";
+		};
+		19E257931BA932B000DDB20C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19E257941BA932B000DDB20C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19FE95B71C22594000153C9A /* Google Analytics Library */ = {
+			isa = PBXGroup;
+			children = (
+				19FE95C91C22864800153C9A /* libGoogleAnalyticsServices.a */,
+				19FE95B81C22598B00153C9A /* GAI.h */,
+				19FE95B91C22598B00153C9A /* GAIDictionaryBuilder.h */,
+				19FE95BA1C22598B00153C9A /* GAIEcommerceFields.h */,
+				19FE95BB1C22598B00153C9A /* GAIEcommerceProduct.h */,
+				19FE95BC1C22598B00153C9A /* GAIEcommerceProductAction.h */,
+				19FE95BD1C22598B00153C9A /* GAIEcommercePromotion.h */,
+				19FE95BE1C22598B00153C9A /* GAIFields.h */,
+				19FE95BF1C22598B00153C9A /* GAILogger.h */,
+				19FE95C01C22598B00153C9A /* GAITrackedViewController.h */,
+				19FE95C11C22598B00153C9A /* GAITracker.h */,
+			);
+			name = "Google Analytics Library";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19E257751BA932B000DDB20C /* AdMobShowroom_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E257991BA932B000DDB20C /* Build configuration list for PBXNativeTarget "AdMobShowroom_IOS" */;
+			buildPhases = (
+				19E257721BA932B000DDB20C /* Sources */,
+				19E257731BA932B000DDB20C /* Frameworks */,
+				19E257741BA932B000DDB20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdMobShowroom_IOS;
+			productName = AdMobShowroom_IOS;
+			productReference = 19E257761BA932B000DDB20C /* AdMobShowroom_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19E2578E1BA932B000DDB20C /* AdMobShowroom_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E2579C1BA932B000DDB20C /* Build configuration list for PBXNativeTarget "AdMobShowroom_IOSTests" */;
+			buildPhases = (
+				19E2578B1BA932B000DDB20C /* Sources */,
+				19E2578C1BA932B000DDB20C /* Frameworks */,
+				19E2578D1BA932B000DDB20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E257911BA932B000DDB20C /* PBXTargetDependency */,
+			);
+			name = AdMobShowroom_IOSTests;
+			productName = AdMobShowroom_IOSTests;
+			productReference = 19E2578F1BA932B000DDB20C /* AdMobShowroom_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19E2576E1BA932B000DDB20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "MinJi Song";
+				TargetAttributes = {
+					19E257751BA932B000DDB20C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					19E2578E1BA932B000DDB20C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 19E257751BA932B000DDB20C;
+					};
+				};
+			};
+			buildConfigurationList = 19E257711BA932B000DDB20C /* Build configuration list for PBXProject "AdMobShowroom_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19E2576D1BA932B000DDB20C;
+			productRefGroup = 19E257771BA932B000DDB20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E257751BA932B000DDB20C /* AdMobShowroom_IOS */,
+				19E2578E1BA932B000DDB20C /* AdMobShowroom_IOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19E257741BA932B000DDB20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198243451BFD94C40085481A /* section2.plist in Resources */,
+				198243471BFD95070085481A /* section1.plist in Resources */,
+				19E257851BA932B000DDB20C /* Main.storyboard in Resources */,
+				19E2578A1BA932B000DDB20C /* LaunchScreen.xib in Resources */,
+				19E257871BA932B000DDB20C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E2578D1BA932B000DDB20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19E257721BA932B000DDB20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E257821BA932B000DDB20C /* MasterViewController.m in Sources */,
+				19EFCC481BA96B6B009CA9D2 /* AdViewController.m in Sources */,
+				19707B8F1BF18DA20006F644 /* CellWithTextField.m in Sources */,
+				19E2577F1BA932B000DDB20C /* AppDelegate.m in Sources */,
+				19E2577C1BA932B000DDB20C /* main.m in Sources */,
+				1982434A1BFD96B70085481A /* CellWithSwitch.m in Sources */,
+				199CCAD51BEC70FE003F0F8B /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E2578B1BA932B000DDB20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E257961BA932B000DDB20C /* AdMobShowroom_IOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19E257911BA932B000DDB20C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19E257751BA932B000DDB20C /* AdMobShowroom_IOS */;
+			targetProxy = 19E257901BA932B000DDB20C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19E257831BA932B000DDB20C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E257841BA932B000DDB20C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19E257881BA932B000DDB20C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E257891BA932B000DDB20C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19E257971BA932B000DDB20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19E257981BA932B000DDB20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19E2579A1BA932B000DDB20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/minjis/Desktop,
+					"/Users/minjis/Downloads/GoogleMobileAdsSdkiOS-7.5.2",
+					"/Users/minjis/Downloads/GoogleMobileAdsSdkiOS-7.6.0",
+				);
+				INFOPLIST_FILE = AdMobShowroom_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/minjis/Desktop/GoogleAnalytics-SDK-iOS",
+					/Users/minjis/Desktop/GATest/Pods/GoogleAnalytics/Libraries,
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19E2579B1BA932B000DDB20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/minjis/Desktop,
+					"/Users/minjis/Downloads/GoogleMobileAdsSdkiOS-7.5.2",
+					"/Users/minjis/Downloads/GoogleMobileAdsSdkiOS-7.6.0",
+				);
+				INFOPLIST_FILE = AdMobShowroom_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/minjis/Desktop/GoogleAnalytics-SDK-iOS",
+					/Users/minjis/Desktop/GATest/Pods/GoogleAnalytics/Libraries,
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19E2579D1BA932B000DDB20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdMobShowroom_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdMobShowroom_IOS.app/AdMobShowroom_IOS";
+			};
+			name = Debug;
+		};
+		19E2579E1BA932B000DDB20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdMobShowroom_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdMobShowroom_IOS.app/AdMobShowroom_IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E257711BA932B000DDB20C /* Build configuration list for PBXProject "AdMobShowroom_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E257971BA932B000DDB20C /* Debug */,
+				19E257981BA932B000DDB20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E257991BA932B000DDB20C /* Build configuration list for PBXNativeTarget "AdMobShowroom_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E2579A1BA932B000DDB20C /* Debug */,
+				19E2579B1BA932B000DDB20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E2579C1BA932B000DDB20C /* Build configuration list for PBXNativeTarget "AdMobShowroom_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E2579D1BA932B000DDB20C /* Debug */,
+				19E2579E1BA932B000DDB20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19E2576E1BA932B000DDB20C /* Project object */;
+}

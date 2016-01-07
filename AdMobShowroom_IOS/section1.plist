@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        
+        <key>header</key>
+        <array>
+            <!-- Section 1 -->
+            <string> AD UNIT SETTINGS</string>
+            <string></string>
+        </array>
+        
+        <key>title</key>
+        <array>
+            <!-- Section 1 -->
+            <string>Using Default ID</string> <!-- settingCell, index:0 -->
+            <string>Custom Ad Unit ID</string>
+        </array>
+        
+        <key>footer</key>
+        <array>
+            <!-- Section 1 -->
+            <string>* Turn this switch on, if you do not have your own ID.</string>
+            <string>* Put your adMob Publisher ID or DFP Ad Unit ID.</string>
+        </array>
+        
+        <key>value</key>
+        <array>
+            <!-- Section 1 -->
+            <string>YES</string> <!-- switch state-->
+            <string></string>
+        </array>
+        
+        <key>cellStyle</key>
+        <array>
+            <!-- Section 1 -->
+            <string>setting</string> <!-- switch state-->
+            <string>value</string>
+        </array>
+        
+    </dict>
+</plist>
