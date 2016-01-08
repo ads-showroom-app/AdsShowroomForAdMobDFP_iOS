@@ -22,7 +22,7 @@
 		<key>3134DA363995CA62340392867A0A051A833552A1</key>
 		<string>../..</string>
 		<key>7E1851BBAB559D659658FEBA77BBADDB515F24A5</key>
-		<string>../../../../Desktop/GoogleAnalytics-SDK-iOS</string>
+		<string>../../../Desktop/GoogleAnalytics-SDK-iOS</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ads-showroom-app/AdsShowroomForAdMobDFP_iOS.git</string>
