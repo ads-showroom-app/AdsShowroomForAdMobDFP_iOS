@@ -23,7 +23,6 @@
                                 <animations/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" restorationIdentifier="CellWithSwitch" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellWithSwitch" rowHeight="56" id="gs7-sG-SGi" customClass="CellWithSwitch">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -133,7 +132,7 @@
                             </tableView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.93220960971117983" green="0.93102681028880452" blue="0.95168737002376702" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Y6j-J4-fhn"/>
@@ -362,7 +361,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="AdMob/DFP Showroom" id="tTP-6z-uLF">
                         <barButtonItem key="rightBarButtonItem" systemItem="edit" id="7j9-vC-M0k">
-                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.53755498010000002" green="0.83289344990000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="Pf7-Ob-v53" kind="show" id="9Hr-fC-tOs"/>
                             </connections>
